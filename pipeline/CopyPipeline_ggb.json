@@ -46,7 +46,82 @@
 						}
 					},
 					"enableStaging": false,
-					"validateDataConsistency": false
+					"validateDataConsistency": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"name": "nametitle",
+									"type": "String"
+								},
+								"sink": {
+									"name": "nametitle",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "fisrtname",
+									"type": "String"
+								},
+								"sink": {
+									"name": "fisrtname",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "lastname",
+									"type": "String"
+								},
+								"sink": {
+									"name": "lastname",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "fullname",
+									"type": "String"
+								},
+								"sink": {
+									"name": "fullname",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "email",
+									"type": "String"
+								},
+								"sink": {
+									"name": "email",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "phone",
+									"type": "String"
+								},
+								"sink": {
+									"name": "phone",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "idcard",
+									"type": "String"
+								},
+								"sink": {
+									"name": "idcard",
+									"type": "String"
+								}
+							}
+						]
+					}
 				},
 				"inputs": [
 					{
