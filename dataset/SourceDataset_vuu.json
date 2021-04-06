@@ -1,0 +1,49 @@
+{
+	"name": "SourceDataset_vuu",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Sheet1",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "blobpw"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "nametitle",
+				"type": "String"
+			},
+			{
+				"name": "fisrtname",
+				"type": "String"
+			},
+			{
+				"name": "lastname",
+				"type": "String"
+			},
+			{
+				"name": "fullname",
+				"type": "String"
+			},
+			{
+				"name": "email",
+				"type": "String"
+			},
+			{
+				"name": "phone",
+				"type": "String"
+			},
+			{
+				"name": "idcard",
+				"type": "String"
+			}
+		]
+	}
+}
